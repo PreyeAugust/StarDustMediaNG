@@ -1,10 +1,9 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import React, { useEffect } from "react";
+import React from "react";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 
 import HeroSection from "@/app/home/heroSection";
 import Section1 from "@/app/home/section1";
@@ -48,16 +47,6 @@ const Section3Data2 = {
 };
 
 export default function page() {
-  useEffect(() => {
-    Aos.init({
-      duration: 1500,
-      easing: "ease-in-sine",
-      delay: 100,
-      offset: 100,
-    });
-    Aos.refresh();
-  }, []);
-
   return (
     <div>
       <Navbar />
