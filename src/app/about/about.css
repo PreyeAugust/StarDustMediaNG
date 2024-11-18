@@ -1,0 +1,134 @@
+.heroAboutContainer {
+  position: relative;
+  height: 100vh;
+  background-image: url(../../assets/AboutJPEG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroAboutContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.heroAboutContainer h1 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.AboutFirstP {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.AboutFirstH1 {
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
+}
+
+.AboutFirstP2 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
+}
+
+.titles {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
+}
+
+.about2First {
+  background: url(../../assets//Giving\ Peace\ a\ Chance\ irene\ Abuja-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about2First::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(37, 36, 36, 0.7);
+}
+
+.about2First2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(37, 36, 36, 0.7);
+}
+
+.about2First3::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(37, 36, 36, 0.7);
+}
+
+.about2First:hover {
+  transform: scale(1);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 2s ease;
+}
+
+.about2First2 {
+  background: url(../../assets/The\ Patriot\ Kids\ -\ Cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about2First2:hover {
+  transform: scale(1);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 2s ease;
+}
+
+.about2First3 {
+  background: url(../../assets/REWARD\ OF\ SAVINNGS\ COVER\ -\ STARDUST.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about2First3:hover {
+  transform: scale(1);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 2s ease;
+}
+
+.about2ps {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
+}

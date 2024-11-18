@@ -1,0 +1,110 @@
+.serviceContainer {
+  position: relative;
+  height: 100vh;
+  background-image: url(../../assets//services1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.serviceContainer h1 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.serviceH2 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+.serviceP {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+}
+
+.serviceSpan {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+}
+
+
+.ServiceCon{
+  margin-top: 4rem;
+}
+
+
+.ServiceCon3{
+  margin-top: 4rem;
+}
+
+
+
+.service2ndCol{
+    background: url(../../assets//AboutJPEG2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service2ndCol2{
+    background: url(../../assets/AboutJPEG1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service3rdCol1{
+  background: url(../../assets/chuttersnap.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service3rdCol2{
+  background: url(../../assets/claybanks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .Service2C{
+    text-align: center;
+  }
+ .Service3C{
+  text-align: center;
+ }
+
+}
+
+@media screen and (min-width: 840px) {
+    .ServiceCon{
+        margin-top: 10rem;
+    }
+
+  
+}
+
