@@ -1,20 +1,20 @@
 .logo1 {
-  width: 9.5rem;
+  width: 7rem;
 }
 
 .fiMenu {
-  margin-top: 4rem;
+  margin-top: 3rem;
   color: aliceblue;
 }
 
 .span {
   text-align: center;
-  font-size: 9.5px;
+  font-size: 7px;
   font-weight: 600;
   font-family: cursive;
   color: whitesmoke;
   position: absolute;
-  top: 7rem;
+  top: 5rem;
   left: 10px;
   text-transform: uppercase;
 }
