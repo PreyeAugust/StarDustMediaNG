@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import "./Navbar.css";
 
-import logo from "@/assets/logoBGOFF_optimized.png";
+import logo from "@/assets/logoBGOFF.png";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 
