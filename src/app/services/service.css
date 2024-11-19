@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
 .serviceContainer {
   position: relative;
   height: 100vh;
@@ -32,79 +42,69 @@
 
 .serviceH2 {
   font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 600;
 }
 
 .serviceP {
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 300;
 }
 
 .serviceSpan {
   font-size: 18px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 300;
 }
 
-
-.ServiceCon{
+.ServiceCon {
   margin-top: 4rem;
 }
 
-
-.ServiceCon3{
+.ServiceCon3 {
   margin-top: 4rem;
 }
 
-
-
-.service2ndCol{
-    background: url(../../assets//AboutJPEG2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.service2ndCol {
+  background: url(../../assets//AboutJPEG2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.service2ndCol2{
-    background: url(../../assets/AboutJPEG1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.service2ndCol2 {
+  background: url(../../assets/AboutJPEG1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.service3rdCol1{
+.service3rdCol1 {
   background: url(../../assets/chuttersnap.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.service3rdCol2{
+.service3rdCol2 {
   background: url(../../assets/claybanks.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
 @media screen and (max-width: 500px) {
-  .Service2C{
+  .Service2C {
     text-align: center;
   }
- .Service3C{
-  text-align: center;
- }
-
+  .Service3C {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 840px) {
-    .ServiceCon{
-        margin-top: 10rem;
-    }
-
-  
+  .ServiceCon {
+    margin-top: 10rem;
+  }
 }
-
