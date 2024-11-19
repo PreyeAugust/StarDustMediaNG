@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import "./Navbar.css";
 
-import logo from "@/assets/logoBGOFF.png";
+import logo from "@/assets/StarDustLOGO.jpg";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -70,7 +70,7 @@ export default function Navbar() {
       <section className="leftContent">
         {/* logo */}
         <Image src={logo} alt="logo" className="logo" />
-        <span className="span text-neutral-400">Imagination TO Reality</span>
+
         {/* navitems */}
       </section>
 

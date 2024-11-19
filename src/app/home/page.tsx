@@ -3,8 +3,6 @@
 import dynamic from "next/dynamic";
 import React from "react";
 
-
-
 import HeroSection from "@/app/home/heroSection";
 import Section1 from "@/app/home/section1";
 import Section101 from "@/app/home/section1(101)";
